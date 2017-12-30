@@ -1,0 +1,269 @@
+* {
+  font-family: 'Hind', sans-serif;
+}
+
+html {
+  background-color: rgb(237, 236, 237);
+}
+
+#page-header {
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(38,38,38);
+  position: relative;
+}
+
+main {
+  background-color: rgb(237, 236, 237);
+
+  margin: 0;
+  padding: .5vw;
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: space-around;*/
+
+}
+
+h1 {
+  color: white;
+
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+#header-links {
+  position: absolute;
+  left: -2rem;
+  bottom: 1rem;
+}
+
+#playlist-text,
+#videos-text {
+  color: rgb(142, 142, 142);
+  display: inline;
+  font-size: 1rem;
+  vertical-align: 20%;
+  margin-left: 1rem;
+}
+
+#shares-text {
+  color: white;
+  display: inline;
+  font-size: 1rem;
+  vertical-align: 20%;
+  margin-left: 1rem;
+}
+
+#header-links img {
+  height: 2vh;
+  width: 2vh;
+  display: inline;
+  margin-left: 3rem;
+}
+
+/*???????????????????????????*/
+
+#login {
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+}
+
+
+#login p {
+  color: rgb(36, 139, 199);
+  display: inline;
+  font-size: .75rem;
+  vertical-align: 50%;
+  margin-left: .25rem;
+}
+
+[src="img/down-arrow.svg"] {
+  height: 1vh;
+  width: 1vh;
+  vertical-align: 27%;
+  margin-left: .25rem;
+}
+
+[src="img/user.svg"] {
+  height: 2vh;
+  width: 2vh;
+}
+
+
+#logo {
+  position: absolute;
+  right: 1vh;
+  bottom: 1vh;
+}
+
+#logo h1 {
+  color: white;
+  display: inline;
+  font-size: 2.5rem;
+}
+
+[src="img/ribbon.svg"] {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: inline;
+}
+
+/*?????????????????????????????????*/
+
+#shares {
+  height: 90px;
+  width: 100vw;
+  margin: 0;
+  display: block;
+  position: relative;
+
+}
+
+h2 {
+  margin: 0;
+  margin-left: 1vw;
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(68,68,68);
+  position: absolute;
+  bottom: 22%;
+}
+
+/*??????????????????????????????????????*/
+
+article {
+  width: 23.25vw;
+  height: 29vw;
+  background-color: white;
+  margin: .5vw .5vw .5vw .5vw;
+  position: relative;
+  display: inline-block;
+  box-shadow: .3vw .3vw rgba(0,0,0,.05), -.3vw -.3vw rgba(0,0,0,.05);
+}
+
+.picture {
+  height: calc(20vw/2);
+  filter: brightness(.7);
+}
+
+#comeau {
+  background: url("../img/Blake Comeau.jpg") no-repeat;
+  background-size: auto 100%;
+}
+
+#soderberg {
+  background: url("../img/Carl Soderberg.jpg") no-repeat;
+  background-size: auto 100%;
+}
+
+#landeskog {
+  background: url("../img/Gabriel Landeskog.jpg") no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+
+#rantanen {
+  background: url("../img/Mikko Rantanen.jpg") no-repeat;
+  background-size: auto 100%;
+}
+
+#yakupov {
+  background: url("../img/Nail Yakupov.jpg") no-repeat;
+  background-size: auto 100%;
+}
+
+#mackinnon {
+  background: url("../img/Nathan MacKinnon.jpg") no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+
+#andrighetto {
+  background: url("../img/Sven Andrighetto.jpg") no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+}
+
+#barrie {
+  background: url("../img/Tyson Barrie.jpg") no-repeat;
+  background-size: auto 100%;
+}
+
+[src="img/forward-arrow.svg"] {
+  height: 3.5vw;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: .6vw;
+  left: .6vw;
+}
+
+article aside {
+  color: white;
+  position: absolute;
+  top: .6vw;
+  right: .6vw;
+  font-size: 1vw;
+}
+
+article span {
+  font-size: 2.5vw;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 1.3vw;
+  margin-bottom: 0;
+  margin-left: 1.2vw;
+}
+
+.date {
+  font-size: 1vw;
+  color: rgb(145,145,145);
+  margin-top: 0.1vw;
+  margin-left: 1.2vw;
+}
+
+.address {
+  width: 19.5vw;
+  margin: 0 auto;
+  padding: .5vw;
+  word-wrap: break-word;
+  color: rgb(145,145,145);
+  background-color: rgb(237, 237, 237)
+}
+
+.address p {
+  font-size: .92vw;
+}
+
+.playlist {
+  font-size: 1vw;
+  margin-left: 1.2vw;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.name-of-playlist{
+  font-size: 1.3vw;
+  margin-left: 1.2vw;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.attachments {
+  font-size: 1vw;
+  font-weight: 500;
+  margin-left: 1.2vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.attachment-quantity {
+  font-size: 2.5vw;
+  color: rgb(36,139,199);
+  margin-top: 0;
+  margin-left: 1.2vw;
+  margin-bottom: 0;
+}

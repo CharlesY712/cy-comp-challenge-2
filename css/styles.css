@@ -15,13 +15,8 @@ html {
 
 main {
   background-color: rgb(237, 236, 237);
-
   margin: 0;
   padding: .5vw;
-  /*display: flex;*/
-  /*flex-wrap: wrap;*/
-  /*justify-content: space-around;*/
-
 }
 
 h1 {
@@ -33,74 +28,74 @@ h1 {
 
 #header-links {
   position: absolute;
-  left: -2rem;
-  bottom: 1rem;
+  left: -1.75vw;
+  bottom: 15px;
 }
 
 #playlist-text,
 #videos-text {
   color: rgb(142, 142, 142);
   display: inline;
-  font-size: 1rem;
+  font-size: 16px;
   vertical-align: 20%;
-  margin-left: 1rem;
+  margin-left: 16px;
 }
 
 #shares-text {
   color: white;
   display: inline;
-  font-size: 1rem;
+  font-size: 16px;
   vertical-align: 20%;
-  margin-left: 1rem;
+  margin-left: 16px;
 }
 
 #header-links img {
-  height: 2vh;
-  width: 2vh;
+  height: 20px;
+  width: 20px;
   display: inline;
-  margin-left: 3rem;
+  margin-left: 48px;
 }
 
 /*???????????????????????????*/
 
 #login {
   position: absolute;
-  right: 2rem;
-  top: 1rem;
+  right: 37px;
+  top: 16px;
 }
 
 
 #login p {
   color: rgb(36, 139, 199);
   display: inline;
-  font-size: .75rem;
+  font-size: 12px;
   vertical-align: 50%;
-  margin-left: .25rem;
+  margin-left: 4px;
 }
 
 [src="img/down-arrow.svg"] {
-  height: 1vh;
-  width: 1vh;
+  height: 8px;
+  width: 8px;
   vertical-align: 27%;
-  margin-left: .25rem;
+  margin-left: 4px;
 }
 
 [src="img/user.svg"] {
-  height: 2vh;
-  width: 2vh;
+  height: 20px;
+  width: 20px;
 }
 
 
 #logo {
   position: absolute;
-  right: 1vh;
-  bottom: 1vh;
+  right: 15px;
+  bottom: 10px;
 }
 
 #logo h1 {
   color: white;
   display: inline;
-  font-size: 2.5rem;
+  font-size: 40px;
 }
 
 [src="img/ribbon.svg"] {
@@ -112,7 +107,7 @@ h1 {
 /*?????????????????????????????????*/
 
 #shares {
-  height: 90px;
+  height: 80px;
   width: 100vw;
   margin: 0;
   display: block;
@@ -122,8 +117,8 @@ h1 {
 
 h2 {
   margin: 0;
-  margin-left: 1vw;
-  font-size: 2rem;
+  margin-left: .5vw;
+  font-size: 40px;
   font-weight: 500;
   color: rgb(68,68,68);
   position: absolute;
@@ -136,7 +131,7 @@ article {
   width: 23.25vw;
   height: 29vw;
   background-color: white;
-  margin: .5vw .5vw .5vw .5vw;
+  margin: .6vw .6vw .6vw .6vw;
   position: relative;
   display: inline-block;
   box-shadow: .3vw .3vw rgba(0,0,0,.05), -.3vw -.3vw rgba(0,0,0,.05);
@@ -267,3 +262,610 @@ article span {
   margin-left: 1.2vw;
   margin-bottom: 0;
 }
+
+
+/*//////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////*/
+
+
+@media screen and (max-width: 1200px) {
+  
+  main {
+    padding: 1.5vw;
+  }
+
+  #header-links {
+    left: -15px;
+  }
+
+  #login {
+    right: 57px;
+  }
+
+  #logo {
+    right: 35px;
+  }
+
+  h2 {
+    margin-left: 1.4vw;
+  }
+
+  article {
+    width: 29vw;
+    height: 34.8vw;
+    margin: 1.5vw 1.5vw 1.5vw 1.5vw;
+  }
+  
+  article aside {
+    color: white;
+    position: absolute;
+    top: .7vw;
+    right: .7vw;
+    font-size: 1.16vw;
+  }
+
+  article span {
+    font-size: 2.9vw;
+  }
+
+  .name {
+    font-weight: 500;
+    font-size: 1.5vw;
+    margin-bottom: 0.3vw;
+    margin-left: 1.4vw;
+  }
+
+  .date {
+    font-size: 1.16vw;
+    color: rgb(145,145,145);
+    margin-top: 0.16vw;
+    margin-left: 1.4vw;
+  }
+
+  .address {
+    width: 25vw;
+    margin: 2vw auto;
+    padding: .58vw;
+    word-wrap: break-word;
+    color: rgb(145,145,145);
+    background-color: rgb(237, 237, 237);
+  }
+
+  .address p {
+    font-size: 1.15vw;
+  }
+
+  .playlist {
+    font-size: 1.16vw;
+    margin-left: 1.4vw;
+    margin-bottom: 0.3vw;
+    font-weight: 400;
+  }
+
+  .name-of-playlist{
+    font-size: 1.5vw;
+    margin-left: 1.4vw;
+    margin-top: 0.3vw;
+    font-weight: 400;
+  }
+
+  .attachments {
+    font-size: 1.16vw;
+    font-weight: 500;
+    margin-left: 1.4vw;
+    margin-top: 0.3vw;
+    margin-bottom: 0;
+  }
+
+  .attachment-quantity {
+    font-size: 2.9vw;
+    color: rgb(36,139,199);
+    margin-top: 0.3vw;
+    margin-left: 1.4vw;
+    margin-bottom: 0;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 1056px) {
+  
+  main {
+    padding: 1.5vw;
+  }
+
+  #header-links {
+    left: -15px;
+  }
+
+  #login {
+    right: 57px;
+  }
+
+  #logo {
+    right: 35px;
+  }
+
+  h2 {
+    margin-left: 1.4vw;
+  }
+
+  article {
+    width: 33vw;
+    height: 39.6vw;
+    margin: .5vw .5vw .5vw .5vw;
+  }
+  
+  article aside {
+    color: white;
+    position: absolute;
+    top: .6vw;
+    right: .6vw;
+    font-size: 1vw;
+  }
+
+  article span {
+    font-size: 2.5vw;
+  }
+
+  .name {
+    font-weight: 500;
+    font-size: 1.3vw;
+    margin-bottom: 0;
+    margin-left: 1.2vw;
+  }
+
+  .date {
+    font-size: 1vw;
+    color: rgb(145,145,145);
+    margin-top: 0.1vw;
+    margin-left: 1.2vw;
+  }
+
+  .address {
+    width: 19.5vw;
+    margin: 0 auto;
+    padding: .5vw;
+    word-wrap: break-word;
+    color: rgb(145,145,145);
+    background-color: rgb(237, 237, 237)
+  }
+
+  .address p {
+    font-size: .92vw;
+  }
+
+  .playlist {
+    font-size: 1vw;
+    margin-left: 1.2vw;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+
+  .name-of-playlist{
+    font-size: 1.3vw;
+    margin-left: 1.2vw;
+    margin-top: 0;
+    font-weight: 400;
+  }
+
+  .attachments {
+    font-size: 1vw;
+    font-weight: 500;
+    margin-left: 1.2vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .attachment-quantity {
+    font-size: 2.5vw;
+    color: rgb(36,139,199);
+    margin-top: 0;
+    margin-left: 1.2vw;
+    margin-bottom: 0;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 912px) {
+  
+  main {
+    padding: 1.5vw;
+  }
+
+  #header-links {
+    left: -15px;
+  }
+
+  #login {
+    right: 57px;
+  }
+
+  #logo {
+    right: 35px;
+  }
+
+  h2 {
+    margin-left: 1.4vw;
+  }
+
+  article {
+    width: 41vw;
+    height: 49vw;
+    margin: .5vw .5vw .5vw .5vw;
+  }
+  
+  article aside {
+    color: white;
+    position: absolute;
+    top: .6vw;
+    right: .6vw;
+    font-size: 1vw;
+  }
+
+  article span {
+    font-size: 2.5vw;
+  }
+
+  .name {
+    font-weight: 500;
+    font-size: 1.3vw;
+    margin-bottom: 0;
+    margin-left: 1.2vw;
+  }
+
+  .date {
+    font-size: 1vw;
+    color: rgb(145,145,145);
+    margin-top: 0.1vw;
+    margin-left: 1.2vw;
+  }
+
+  .address {
+    width: 19.5vw;
+    margin: 0 auto;
+    padding: .5vw;
+    word-wrap: break-word;
+    color: rgb(145,145,145);
+    background-color: rgb(237, 237, 237)
+  }
+
+  .address p {
+    font-size: .92vw;
+  }
+
+  .playlist {
+    font-size: 1vw;
+    margin-left: 1.2vw;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+
+  .name-of-playlist{
+    font-size: 1.3vw;
+    margin-left: 1.2vw;
+    margin-top: 0;
+    font-weight: 400;
+  }
+
+  .attachments {
+    font-size: 1vw;
+    font-weight: 500;
+    margin-left: 1.2vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .attachment-quantity {
+    font-size: 2.5vw;
+    color: rgb(36,139,199);
+    margin-top: 0;
+    margin-left: 1.2vw;
+    margin-bottom: 0;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 768px) {
+  
+  main {
+    padding: 1.5vw;
+  }
+
+  #header-links {
+    left: -15px;
+  }
+
+  #login {
+    right: 57px;
+  }
+
+  #logo {
+    right: 35px;
+  }
+
+  h2 {
+    margin-left: 1.4vw;
+  }
+
+  article {
+    width: 50vw;
+    height: 60vw;
+    margin: .5vw .5vw .5vw .5vw;
+  }
+  
+  article aside {
+    color: white;
+    position: absolute;
+    top: .6vw;
+    right: .6vw;
+    font-size: 1vw;
+  }
+
+  article span {
+    font-size: 2.5vw;
+  }
+
+  .name {
+    font-weight: 500;
+    font-size: 1.3vw;
+    margin-bottom: 0;
+    margin-left: 1.2vw;
+  }
+
+  .date {
+    font-size: 1vw;
+    color: rgb(145,145,145);
+    margin-top: 0.1vw;
+    margin-left: 1.2vw;
+  }
+
+  .address {
+    width: 19.5vw;
+    margin: 0 auto;
+    padding: .5vw;
+    word-wrap: break-word;
+    color: rgb(145,145,145);
+    background-color: rgb(237, 237, 237)
+  }
+
+  .address p {
+    font-size: .92vw;
+  }
+
+  .playlist {
+    font-size: 1vw;
+    margin-left: 1.2vw;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+
+  .name-of-playlist{
+    font-size: 1.3vw;
+    margin-left: 1.2vw;
+    margin-top: 0;
+    font-weight: 400;
+  }
+
+  .attachments {
+    font-size: 1vw;
+    font-weight: 500;
+    margin-left: 1.2vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .attachment-quantity {
+    font-size: 2.5vw;
+    color: rgb(36,139,199);
+    margin-top: 0;
+    margin-left: 1.2vw;
+    margin-bottom: 0;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 591px) {
+  
+  main {
+    padding: 1.5vw;
+  }
+
+  #header-links {
+    left: -15px;
+  }
+
+  #login {
+    right: 57px;
+  }
+
+  #logo {
+    right: 35px;
+  }
+
+  h2 {
+    margin-left: 1.4vw;
+  }
+
+  article {
+    width: 75vw;
+    height: 90vw;
+    margin: .5vw .5vw .5vw .5vw;
+  }
+  
+  article aside {
+    color: white;
+    position: absolute;
+    top: .6vw;
+    right: .6vw;
+    font-size: 1vw;
+  }
+
+  article span {
+    font-size: 2.5vw;
+  }
+
+  .name {
+    font-weight: 500;
+    font-size: 1.3vw;
+    margin-bottom: 0;
+    margin-left: 1.2vw;
+  }
+
+  .date {
+    font-size: 1vw;
+    color: rgb(145,145,145);
+    margin-top: 0.1vw;
+    margin-left: 1.2vw;
+  }
+
+  .address {
+    width: 19.5vw;
+    margin: 0 auto;
+    padding: .5vw;
+    word-wrap: break-word;
+    color: rgb(145,145,145);
+    background-color: rgb(237, 237, 237)
+  }
+
+  .address p {
+    font-size: .92vw;
+  }
+
+  .playlist {
+    font-size: 1vw;
+    margin-left: 1.2vw;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+
+  .name-of-playlist{
+    font-size: 1.3vw;
+    margin-left: 1.2vw;
+    margin-top: 0;
+    font-weight: 400;
+  }
+
+  .attachments {
+    font-size: 1vw;
+    font-weight: 500;
+    margin-left: 1.2vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .attachment-quantity {
+    font-size: 2.5vw;
+    color: rgb(36,139,199);
+    margin-top: 0;
+    margin-left: 1.2vw;
+    margin-bottom: 0;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 414px) {
+  
+  main {
+    padding: 1.5vw;
+  }
+
+  #header-links {
+    left: -15px;
+  }
+
+  #login {
+    right: 57px;
+  }
+
+  #logo {
+    right: 35px;
+  }
+
+  h2 {
+    margin-left: 1.4vw;
+  }
+
+  article {
+    width: 100vw;
+    height: 120vw;
+    margin: .5vw .5vw .5vw .5vw;
+  }
+  
+  article aside {
+    color: white;
+    position: absolute;
+    top: .6vw;
+    right: .6vw;
+    font-size: 1vw;
+  }
+
+  article span {
+    font-size: 2.5vw;
+  }
+
+  .name {
+    font-weight: 500;
+    font-size: 1.3vw;
+    margin-bottom: 0;
+    margin-left: 1.2vw;
+  }
+
+  .date {
+    font-size: 1vw;
+    color: rgb(145,145,145);
+    margin-top: 0.1vw;
+    margin-left: 1.2vw;
+  }
+
+  .address {
+    width: 19.5vw;
+    margin: 0 auto;
+    padding: .5vw;
+    word-wrap: break-word;
+    color: rgb(145,145,145);
+    background-color: rgb(237, 237, 237)
+  }
+
+  .address p {
+    font-size: .92vw;
+  }
+
+  .playlist {
+    font-size: 1vw;
+    margin-left: 1.2vw;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+
+  .name-of-playlist{
+    font-size: 1.3vw;
+    margin-left: 1.2vw;
+    margin-top: 0;
+    font-weight: 400;
+  }
+
+  .attachments {
+    font-size: 1vw;
+    font-weight: 500;
+    margin-left: 1.2vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .attachment-quantity {
+    font-size: 2.5vw;
+    color: rgb(36,139,199);
+    margin-top: 0;
+    margin-left: 1.2vw;
+    margin-bottom: 0;
+  }
+}
+

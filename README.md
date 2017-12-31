@@ -10,4 +10,4 @@ This is my static-comp:
 
 
 This is the provided static-comp:
-![turing-comp](static-comp-challenge-2.jpg)
+![turing-comp](img/static-comp-challenge-2.jpg)

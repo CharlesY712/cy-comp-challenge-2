@@ -272,10 +272,6 @@ article span {
 
 @media screen and (max-width: 1200px) {
   
-  main {
-    padding: 1.5vw;
-  }
-
   #header-links {
     left: -15px;
   }
@@ -290,6 +286,10 @@ article span {
 
   h2 {
     margin-left: 1.4vw;
+  }
+
+  main {
+    padding: 1.5vw;
   }
 
   article {
@@ -371,10 +371,6 @@ article span {
 
 @media screen and (max-width: 1056px) {
   
-  main {
-    padding: 0.4vw;
-  }
-
   #header-links {
     left: -3.5vw;
   }
@@ -389,6 +385,10 @@ article span {
 
   h2 {
     margin-left: .35vw;
+  }
+
+  main {
+    padding: 0.4vw;
   }
 
   article {
@@ -470,10 +470,6 @@ article span {
 
 @media screen and (max-width: 912px) {
   
-  main {
-    padding: 2.9vw;
-  }
-
   #header-links {
     left: .5vw;
   }
@@ -488,6 +484,10 @@ article span {
 
   h2 {
     margin-left: 2.9vw;
+  }
+
+  main {
+    padding: 2.9vw;
   }
 
   article {
@@ -600,10 +600,6 @@ article span {
     margin-left: 4.5vw;
   }
 
-  main {
-    padding: .5vw;
-  }
-
   #login {
     right: 37px;
   }
@@ -614,6 +610,10 @@ article span {
 
   h2 {
     margin-left: .5vw;
+  }
+
+  main {
+    padding: .5vw;
   }
 
   article {
@@ -695,24 +695,88 @@ article span {
 
 @media screen and (max-width: 591px) {
   
-  main {
-    padding: 6.25vw;
+  #page-header {
+    width: 100vw;
+    height: 26vw;
   }
 
   #header-links {
-    left: -1.75vw;
+    left: 8vw;
+    bottom: 2vw;
+  }
+
+  #playlist-text,
+  #videos-text {
+    font-size: 2.85vw;
+    vertical-align: 20%;
+    margin-left: 2.85vw;
+  }
+
+  #shares-text {
+    font-size: 2.85vw;
+    vertical-align: 20%;
+    margin-left: 2.85vw;
+  }
+
+  #header-links img {
+    height: 3.3vw;
+    width: 3.3vw;
+    margin-left: 4.5vw;
   }
 
   #login {
-    right: 37px;
+    left: 36vw;
+    top: 14vw;
+  }
+
+  #login p {
+    font-size: 2vw;
+    vertical-align: 50%;
+    margin-left: 1vw;
+  }
+
+  [src="img/down-arrow.svg"] {
+    height: 1.65vw;
+    width: 1.65vw;
+    vertical-align: 27%;
+    margin-left: .5vw;
+  }
+
+  [src="img/user.svg"] {
+    height: 3.3vw;
+    width: 3.3vw;
   }
 
   #logo {
-    right: 15px;
+    right: 32vw;
+    top: 1.5vw;
+  }
+
+  #logo h1 {
+    font-size: 10vw;
+  }
+
+  [src="img/ribbon.svg"] {
+    height: 10vw;
+    width: 10vw;
+  }
+
+  #shares {
+    height: 3vw;
+    width: 100vw;
+    margin: 0;
+
   }
 
   h2 {
-    margin-left: 1.4vw;
+    margin: 0;
+    margin-left: 6.25vw;
+    font-size: 5vw;
+    bottom: 22%;
+  }
+
+  main {
+    padding: 6.25vw;
   }
 
   article {
@@ -795,24 +859,91 @@ article span {
 
 @media screen and (max-width: 414px) {
   
-  main {
-    padding: 1vw;
+  #page-header {
+    width: 100vw;
+    height: 26vw;
   }
 
   #header-links {
-    left: -1.75vw;
+    left: 8vw;
+    bottom: 2vw;
+  }
+
+  #playlist-text,
+  #videos-text {
+    font-size: 2.85vw;
+    vertical-align: 20%;
+    margin-left: 2.85vw;
+  }
+
+  #shares-text {
+    font-size: 2.85vw;
+    vertical-align: 20%;
+    margin-left: 2.85vw;
+  }
+
+  #header-links img {
+    height: 3.3vw;
+    width: 3.3vw;
+    margin-left: 4.5vw;
   }
 
   #login {
-    right: 37px;
+    left: 36vw;
+    top: 14vw;
+  }
+
+  #login p {
+    font-size: 2vw;
+    vertical-align: 50%;
+    margin-left: 1vw;
+  }
+
+  [src="img/down-arrow.svg"] {
+    height: 1.65vw;
+    width: 1.65vw;
+    vertical-align: 27%;
+    margin-left: .5vw;
+  }
+
+  [src="img/user.svg"] {
+    height: 3.3vw;
+    width: 3.3vw;
   }
 
   #logo {
-    right: 15px;
+    right: 32vw;
+    top: 1.5vw;
+  }
+
+  #logo h1 {
+    font-size: 10vw;
+  }
+
+  [src="img/ribbon.svg"] {
+    height: 10vw;
+    width: 10vw;
+  }
+
+  #shares {
+    height: 3vw;
+    width: 100vw;
+    margin: 0;
+
   }
 
   h2 {
-    margin-left: 1.4vw;
+    margin: 0;
+    margin-left: 6.25vw;
+    font-size: 5vw;
+    bottom: 22%;
+  }
+
+
+
+
+  main {
+    padding: 1vw;
   }
 
   article {

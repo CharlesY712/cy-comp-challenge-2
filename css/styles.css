@@ -861,72 +861,72 @@ article span {
   
   #page-header {
     width: 100vw;
-    height: 26vw;
+    height: 37vw;
   }
 
   #header-links {
-    left: 8vw;
+    left: -2.5vw;
     bottom: 2vw;
   }
 
   #playlist-text,
   #videos-text {
-    font-size: 2.85vw;
+    font-size: 4.1vw;
     vertical-align: 20%;
-    margin-left: 2.85vw;
+    margin-left: 1.75vw;
   }
 
   #shares-text {
-    font-size: 2.85vw;
+    font-size: 4.1vw;
     vertical-align: 20%;
-    margin-left: 2.85vw;
+    margin-left: 1.75vw;
   }
 
   #header-links img {
-    height: 3.3vw;
-    width: 3.3vw;
+    height: 4.6vw;
+    width: 4.6vw;
     margin-left: 4.5vw;
   }
 
   #login {
-    left: 36vw;
-    top: 14vw;
+    left: 30vw;
+    top: 19vw;
   }
 
   #login p {
-    font-size: 2vw;
-    vertical-align: 50%;
+    font-size: 4vw;
+    vertical-align: 35%;
     margin-left: 1vw;
   }
 
   [src="img/down-arrow.svg"] {
-    height: 1.65vw;
-    width: 1.65vw;
+    height: 3.3vw;
+    width: 3.3vw;
     vertical-align: 27%;
     margin-left: .5vw;
   }
 
   [src="img/user.svg"] {
-    height: 3.3vw;
-    width: 3.3vw;
+    height: 6.1vw;
+    width: 6.1vw;
   }
 
   #logo {
-    right: 32vw;
+    right: 21.5vw;
     top: 1.5vw;
   }
 
   #logo h1 {
-    font-size: 10vw;
+    font-size: 15vw;
   }
 
   [src="img/ribbon.svg"] {
-    height: 10vw;
-    width: 10vw;
+    height: 15vw;
+    width: 15vw;
   }
 
   #shares {
-    height: 3vw;
+    height: 12vw;
     width: 100vw;
     margin: 0;
 
@@ -934,8 +934,8 @@ article span {
 
   h2 {
     margin: 0;
-    margin-left: 6.25vw;
-    font-size: 5vw;
+    margin-left: 1vw;
+    font-size: 6vw;
     bottom: 22%;
   }
 
@@ -944,6 +944,8 @@ article span {
 
   main {
     padding: 1vw;
+    height: 135vw;
+    overflow-y: scroll;
   }
 
   article {

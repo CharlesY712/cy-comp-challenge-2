@@ -21,7 +21,6 @@ main {
 
 h1 {
   color: white;
-
 }
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -60,7 +59,7 @@ h1 {
 
 #login {
   position: absolute;
-  right: 37px;
+  right: 47px;
   top: 16px;
 }
 
@@ -88,7 +87,7 @@ h1 {
 
 #logo {
   position: absolute;
-  right: 15px;
+  right: 25px;
   bottom: 10px;
 }
 
@@ -221,7 +220,7 @@ article span {
 }
 
 .address {
-  width: 19.5vw;
+  width: 19.75vw;
   margin: 0 auto;
   padding: .5vw;
   word-wrap: break-word;
@@ -296,16 +295,20 @@ article span {
   article {
     width: 29vw;
     height: 34.8vw;
-    margin: 1.5vw 1.5vw 1.5vw 1.5vw;
+    margin: 1vw 1.5vw 1vw 1.5vw;
   }
   
   .picture {
     height: 11.6vw;
   }
-
+  
+  [src="img/forward-arrow.svg"] {
+    height: 4.06vw;
+    top: .7vw;
+    left: .7vw;
+  }
+  
   article aside {
-    color: white;
-    position: absolute;
     top: .7vw;
     right: .7vw;
     font-size: 1.16vw;
@@ -316,7 +319,6 @@ article span {
   }
 
   .name {
-    font-weight: 500;
     font-size: 1.5vw;
     margin-bottom: 0vw;
     margin-left: 1.4vw;
@@ -324,7 +326,6 @@ article span {
 
   .date {
     font-size: 1.16vw;
-    color: rgb(145,145,145);
     margin-top: 0vw;
     margin-left: 1.4vw;
   }
@@ -333,9 +334,6 @@ article span {
     width: 25vw;
     margin: 1vw auto;
     padding: .58vw;
-    word-wrap: break-word;
-    color: rgb(145,145,145);
-    background-color: rgb(237, 237, 237);
   }
 
   .address p {
@@ -346,19 +344,16 @@ article span {
     font-size: 1.16vw;
     margin-left: 1.4vw;
     margin-bottom: 0vw;
-    font-weight: 400;
   }
 
   .name-of-playlist{
     font-size: 1.5vw;
     margin-left: 1.4vw;
     margin-top: 0vw;
-    font-weight: 400;
   }
 
   .attachments {
     font-size: 1.16vw;
-    font-weight: 500;
     margin-left: 1.4vw;
     margin-top: 0vw;
     margin-bottom: 0;
@@ -366,7 +361,6 @@ article span {
 
   .attachment-quantity {
     font-size: 2.9vw;
-    color: rgb(36,139,199);
     margin-top: 0vw;
     margin-left: 1.4vw;
     margin-bottom: 0;
@@ -379,6 +373,330 @@ article span {
   
   main {
     padding: 0.4vw;
+  }
+
+  #header-links {
+    left: -3.5vw;
+  }
+
+  #login {
+    right: 32px;
+  }
+
+  #logo {
+    right: 10px;
+  }
+
+  h2 {
+    margin-left: .35vw;
+  }
+
+  article {
+    width: 32vw;
+    height: 39.6vw;
+    margin: 0.35vw 0.35vw 0.35vw 0.35vw;
+  }
+  
+  .picture {
+    height: 13.1vw;
+  }
+
+  [src="img/forward-arrow.svg"] {
+    height: 4.58vw;
+    top: .8vw;
+    left: .8vw;
+  }
+  
+  article aside {
+    top: .8vw;
+    right: .8vw;
+    font-size: 1.31vw;
+  }
+
+  article span {
+    font-size: 3.27vw;
+  }
+
+  .name {
+    font-size: 1.5vw;
+    margin-bottom: 0vw;
+    margin-left: 1.58vw;
+  }
+
+  .date {
+    font-size: 1.31vw;
+    margin-top: 0vw;
+    margin-left: 1.58vw;
+  }
+
+  .address {
+    width: 27.5vw;
+    margin: 1.13vw auto;
+    padding: .65vw;
+  }
+
+  .address p {
+    font-size: 1.3vw;
+  }
+
+  .playlist {
+    font-size: 1.31vw;
+    margin-left: 1.58vw;
+    margin-bottom: 0vw;
+  }
+
+  .name-of-playlist{
+    font-size: 1.695vw;
+    margin-left: 1.58vw;
+    margin-top: 0vw;
+  }
+
+  .attachments {
+    font-size: 1.31vw;
+    margin-left: 1.58vw;
+    margin-top: 0vw;
+    margin-bottom: 0;
+  }
+
+  .attachment-quantity {
+    font-size: 3.277vw;
+    margin-top: 0vw;
+    margin-left: 1.58vw;
+    margin-bottom: 0;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 912px) {
+  
+  main {
+    padding: 2.9vw;
+  }
+
+  #header-links {
+    left: .5vw;
+  }
+
+  #login {
+    right: 72px;
+  }
+
+  #logo {
+    right: 50px;
+  }
+
+  h2 {
+    margin-left: 2.9vw;
+  }
+
+  article {
+    width: 41vw;
+    height: 49vw;
+    margin: 1vw 2.9vw 1vw 2.9vw;
+  }
+  
+  .picture {
+    height: 16.5vw;
+  }
+
+  [src="img/forward-arrow.svg"] {
+    height: 5.69vw;
+    top: 1vw;
+    left: 1vw;
+  }
+  
+  article aside {
+    top: 1vw;
+    right: 1vw;
+    font-size: 1.62vw;
+  }
+
+  article span {
+    font-size: 4.51vw;
+  }
+
+  .name {
+    font-size: 1.86vw;
+    margin-bottom: 0vw;
+    margin-left: 1.96vw;
+  }
+
+  .date {
+    font-size: 1.62vw;
+    margin-top: 0vw;
+    margin-left: 1.96vw;
+  }
+
+  .address {
+    width: 35.5vw;
+    margin: 1.5vw auto;
+    padding: .80vw;
+  }
+
+  .address p {
+    font-size: 1.62vw;
+  }
+
+  .playlist {
+    font-size: 1.62vw;
+    margin-left: 1.96vw;
+    margin-bottom: 0vw;
+  }
+
+  .name-of-playlist{
+    font-size: 2.1vw;
+    margin-left: 1.96vw;
+    margin-top: 0vw;
+  }
+
+  .attachments {
+    font-size: 1.31vw;
+    margin-left: 1.96vw;
+    margin-top: 0vw;
+    margin-bottom: 0;
+  }
+
+  .attachment-quantity {
+    font-size: 4.06vw;
+    margin-top: 0vw;
+    margin-left: 1.96vw;
+    margin-bottom: 0;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 768px) {
+  
+  #page-header {
+    width: 100vw;
+    height: 100px;
+  }
+
+  #header-links {
+    left: -3vw;
+  }
+
+  #playlist-text,
+  #videos-text {
+    font-size: 2.25vw;
+    vertical-align: 20%;
+    margin-left: 2.25vw;
+  }
+
+  #shares-text {
+    color: white;
+    display: inline;
+    font-size: 2.25vw;
+    vertical-align: 20%;
+    margin-left: 2.25vw;
+  }
+
+  #header-links img {
+    height: 2.8125vw;
+    width: 2.8125vw;
+    display: inline;
+    margin-left: 4.5vw;
+  }
+
+  main {
+    padding: .5vw;
+  }
+
+  #login {
+    right: 37px;
+  }
+
+  #logo {
+    right: 15px;
+  }
+
+  h2 {
+    margin-left: .5vw;
+  }
+
+  article {
+    width: 48.1vw;
+    height: 58vw;
+    margin: .5vw .5vw .5vw .5vw;
+  }
+  
+  .picture {
+    height: 20.3vw;
+  }
+
+  [src="img/forward-arrow.svg"] {
+    height: 7.11vw;
+    top: 1.25vw;
+    left: 1.25vw;
+  }
+  
+  article aside {
+    top: 1.25vw;
+    right: 1.25vw;
+    font-size: 2.025vw;
+  }
+
+  article span {
+    font-size: 5.63vw;
+  }
+
+  .name {
+    font-size: 2.325vw;
+    margin-bottom: 0vw;
+    margin-left: 2.45vw;
+  }
+
+  .date {
+    font-size: 2.025vw;
+    margin-top: 0vw;
+    margin-left: 2.45vw;
+  }
+
+  .address {
+    width: 41vw;
+    margin: 1.75vw auto;
+    padding: 1vw;
+  }
+
+  .address p {
+    font-size: 1.9vw;
+  }
+
+  .playlist {
+    font-size: 2.025vw;
+    margin-left: 2.45vw;
+    margin-bottom: 0vw;
+  }
+
+  .name-of-playlist{
+    font-size: 2.625vw;
+    margin-left: 2.45vw;
+    margin-top: 0vw;
+  }
+
+  .attachments {
+    font-size: 1.63vw;
+    margin-left: 2.45vw;
+    margin-top: 0vw;
+    margin-bottom: 0;
+  }
+
+  .attachment-quantity {
+    font-size: 5.075vw;
+    margin-top: 0vw;
+    margin-left: 2.45vw;
+    margin-bottom: 0;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 591px) {
+  
+  main {
+    padding: 6.25vw;
   }
 
   #header-links {
@@ -398,393 +716,77 @@ article span {
   }
 
   article {
-    width: 32vw;
-    height: 39.6vw;
-    margin: 0.4vw 0.4vw 0.4vw 0.4vw;
-  }
-  
-  .picture {
-    height: 13.1vw;
-  }
-
-  article aside {
-    color: white;
-    position: absolute;
-    top: .8vw;
-    right: .8vw;
-    font-size: 1.31vw;
-  }
-
-  article span {
-    font-size: 3.27vw;
-  }
-
-  .name {
-    font-weight: 500;
-    font-size: 1.5vw;
-    margin-bottom: 0vw;
-    margin-left: 1.58vw;
-  }
-
-  .date {
-    font-size: 1.31vw;
-    color: rgb(145,145,145);
-    margin-top: 0vw;
-    margin-left: 1.58vw;
-  }
-
-  .address {
-    width: 28.25vw;
-    margin: 1.13vw auto;
-    padding: .65vw;
-    word-wrap: break-word;
-    color: rgb(145,145,145);
-    background-color: rgb(237, 237, 237);
-  }
-
-  .address p {
-    font-size: 1.3vw;
-  }
-
-  .playlist {
-    font-size: 1.31vw;
-    margin-left: 1.58vw;
-    margin-bottom: 0vw;
-    font-weight: 400;
-  }
-
-  .name-of-playlist{
-    font-size: 1.695vw;
-    margin-left: 1.58vw;
-    margin-top: 0vw;
-    font-weight: 400;
-  }
-
-  .attachments {
-    font-size: 1.31vw;
-    font-weight: 500;
-    margin-left: 1.58vw;
-    margin-top: 0vw;
-    margin-bottom: 0;
-  }
-
-  .attachment-quantity {
-    font-size: 3.277vw;
-    color: rgb(36,139,199);
-    margin-top: 0vw;
-    margin-left: 1.58vw;
-    margin-bottom: 0;
-  }
-}
-
-/*//////////////////////////////////////////////////////////////*/
-
-@media screen and (max-width: 912px) {
-  
-  main {
-    padding: 1.5vw;
-  }
-
-  #header-links {
-    left: -15px;
-  }
-
-  #login {
-    right: 57px;
-  }
-
-  #logo {
-    right: 35px;
-  }
-
-  h2 {
-    margin-left: 1.4vw;
-  }
-
-  article {
-    width: 41vw;
-    height: 49vw;
-    margin: .5vw .5vw .5vw .5vw;
-  }
-  
-  .picture {
-    height: calc(20vw/2);
-  }
-
-  article aside {
-    color: white;
-    position: absolute;
-    top: .6vw;
-    right: .6vw;
-    font-size: 1vw;
-  }
-
-  article span {
-    font-size: 2.5vw;
-  }
-
-  .name {
-    font-weight: 500;
-    font-size: 1.3vw;
-    margin-bottom: 0;
-    margin-left: 1.2vw;
-  }
-
-  .date {
-    font-size: 1vw;
-    color: rgb(145,145,145);
-    margin-top: 0.1vw;
-    margin-left: 1.2vw;
-  }
-
-  .address {
-    width: 19.5vw;
-    margin: 0 auto;
-    padding: .5vw;
-    word-wrap: break-word;
-    color: rgb(145,145,145);
-    background-color: rgb(237, 237, 237)
-  }
-
-  .address p {
-    font-size: .92vw;
-  }
-
-  .playlist {
-    font-size: 1vw;
-    margin-left: 1.2vw;
-    margin-bottom: 0;
-    font-weight: 400;
-  }
-
-  .name-of-playlist{
-    font-size: 1.3vw;
-    margin-left: 1.2vw;
-    margin-top: 0;
-    font-weight: 400;
-  }
-
-  .attachments {
-    font-size: 1vw;
-    font-weight: 500;
-    margin-left: 1.2vw;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  .attachment-quantity {
-    font-size: 2.5vw;
-    color: rgb(36,139,199);
-    margin-top: 0;
-    margin-left: 1.2vw;
-    margin-bottom: 0;
-  }
-}
-
-/*//////////////////////////////////////////////////////////////*/
-
-@media screen and (max-width: 768px) {
-  
-  main {
-    padding: 1.5vw;
-  }
-
-  #header-links {
-    left: -15px;
-  }
-
-  #login {
-    right: 57px;
-  }
-
-  #logo {
-    right: 35px;
-  }
-
-  h2 {
-    margin-left: 1.4vw;
-  }
-
-  article {
-    width: 50vw;
-    height: 60vw;
-    margin: .5vw .5vw .5vw .5vw;
-  }
-  
-  .picture {
-    height: calc(20vw/2);
-  }
-
-  article aside {
-    color: white;
-    position: absolute;
-    top: .6vw;
-    right: .6vw;
-    font-size: 1vw;
-  }
-
-  article span {
-    font-size: 2.5vw;
-  }
-
-  .name {
-    font-weight: 500;
-    font-size: 1.3vw;
-    margin-bottom: 0;
-    margin-left: 1.2vw;
-  }
-
-  .date {
-    font-size: 1vw;
-    color: rgb(145,145,145);
-    margin-top: 0.1vw;
-    margin-left: 1.2vw;
-  }
-
-  .address {
-    width: 19.5vw;
-    margin: 0 auto;
-    padding: .5vw;
-    word-wrap: break-word;
-    color: rgb(145,145,145);
-    background-color: rgb(237, 237, 237)
-  }
-
-  .address p {
-    font-size: .92vw;
-  }
-
-  .playlist {
-    font-size: 1vw;
-    margin-left: 1.2vw;
-    margin-bottom: 0;
-    font-weight: 400;
-  }
-
-  .name-of-playlist{
-    font-size: 1.3vw;
-    margin-left: 1.2vw;
-    margin-top: 0;
-    font-weight: 400;
-  }
-
-  .attachments {
-    font-size: 1vw;
-    font-weight: 500;
-    margin-left: 1.2vw;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  .attachment-quantity {
-    font-size: 2.5vw;
-    color: rgb(36,139,199);
-    margin-top: 0;
-    margin-left: 1.2vw;
-    margin-bottom: 0;
-  }
-}
-
-/*//////////////////////////////////////////////////////////////*/
-
-@media screen and (max-width: 591px) {
-  
-  main {
-    padding: 1.5vw;
-  }
-
-  #header-links {
-    left: -15px;
-  }
-
-  #login {
-    right: 57px;
-  }
-
-  #logo {
-    right: 35px;
-  }
-
-  h2 {
-    margin-left: 1.4vw;
-  }
-
-  article {
     width: 75vw;
     height: 90vw;
-    margin: .5vw .5vw .5vw .5vw;
+    margin: 1vw 6.25vw 1vw 6.25vw;
   }
   
   .picture {
-    height: calc(20vw/2);
+    height: 30.45vw;
   }
 
+  [src="img/forward-arrow.svg"] {
+    height: 10.665vw;
+    top: 1.875vw;
+    left: 1.875vw;
+  }
+  
   article aside {
-    color: white;
-    position: absolute;
-    top: .6vw;
-    right: .6vw;
-    font-size: 1vw;
+    top: 1.875vw;
+    right: 1.875vw;
+    font-size: 3.03vw;
   }
 
   article span {
-    font-size: 2.5vw;
+    font-size: 8.445vw;
   }
 
   .name {
     font-weight: 500;
-    font-size: 1.3vw;
-    margin-bottom: 0;
-    margin-left: 1.2vw;
+    font-size: 3.49vw;
+    margin-bottom: 0vw;
+    margin-left: 3.675vw;
   }
 
   .date {
-    font-size: 1vw;
-    color: rgb(145,145,145);
-    margin-top: 0.1vw;
-    margin-left: 1.2vw;
+    font-size: 3.03vw;
+    margin-top: 0vw;
+    margin-left: 3.675vw;
   }
 
   .address {
-    width: 19.5vw;
-    margin: 0 auto;
-    padding: .5vw;
-    word-wrap: break-word;
-    color: rgb(145,145,145);
-    background-color: rgb(237, 237, 237)
+    width: 65vw;
+    margin: 2.625vw auto;
+    padding: 1.5vw;
   }
 
   .address p {
-    font-size: .92vw;
+    font-size: 2.85vw;
   }
 
   .playlist {
-    font-size: 1vw;
-    margin-left: 1.2vw;
-    margin-bottom: 0;
-    font-weight: 400;
+    font-size: 3.03vw;
+    margin-left: 3.675vw;
+    margin-bottom: 0vw;
   }
 
   .name-of-playlist{
-    font-size: 1.3vw;
-    margin-left: 1.2vw;
-    margin-top: 0;
-    font-weight: 400;
+    font-size: 3.93vw;
+    margin-left: 3.675vw;
+    margin-top: 0vw;
   }
 
   .attachments {
-    font-size: 1vw;
-    font-weight: 500;
-    margin-left: 1.2vw;
-    margin-top: 0;
+    font-size: 2.445vw;
+    margin-left: 3.675vw;
+    margin-top: 0vw;
     margin-bottom: 0;
   }
 
   .attachment-quantity {
-    font-size: 2.5vw;
-    color: rgb(36,139,199);
-    margin-top: 0;
-    margin-left: 1.2vw;
+    font-size: 7.6vw;
+    margin-top: 0vw;
+    margin-left: 3.675vw;
     margin-bottom: 0;
   }
 }
@@ -794,19 +796,19 @@ article span {
 @media screen and (max-width: 414px) {
   
   main {
-    padding: 1.5vw;
+    padding: 1vw;
   }
 
   #header-links {
-    left: -15px;
+    left: -1.75vw;
   }
 
   #login {
-    right: 57px;
+    right: 37px;
   }
 
   #logo {
-    right: 35px;
+    right: 15px;
   }
 
   h2 {
@@ -814,81 +816,77 @@ article span {
   }
 
   article {
-    width: 100vw;
-    height: 120vw;
-    margin: .5vw .5vw .5vw .5vw;
+    width: 97vw;
+    height: 117vw;
+    margin: 1vw 1vw 1vw 1vw;
   }
   
   .picture {
-    height: calc(20vw/2);
+    height: 41vw;
   }
 
+  [src="img/forward-arrow.svg"] {
+    height: 14.18vw;
+    top: 2.5vw;
+    left: 2.5vw;
+  }
+  
   article aside {
-    color: white;
-    position: absolute;
-    top: .6vw;
-    right: .6vw;
-    font-size: 1vw;
+    top: 2.5vw;
+    right: 2.5vw;
+    font-size: 4.03vw;
   }
 
   article span {
-    font-size: 2.5vw;
+    font-size: 11.23vw;
   }
 
   .name {
     font-weight: 500;
-    font-size: 1.3vw;
-    margin-bottom: 0;
-    margin-left: 1.2vw;
+    font-size: 4.64vw;
+    margin-bottom: 0vw;
+    margin-left: 4.88vw;
   }
 
   .date {
-    font-size: 1vw;
-    color: rgb(145,145,145);
-    margin-top: 0.1vw;
-    margin-left: 1.2vw;
+    font-size: 4.03vw;
+    margin-top: 0vw;
+    margin-left: 4.88vw;
   }
 
   .address {
-    width: 19.5vw;
-    margin: 0 auto;
-    padding: .5vw;
-    word-wrap: break-word;
-    color: rgb(145,145,145);
-    background-color: rgb(237, 237, 237)
+    width: 83vw;
+    margin: 3.5vw auto;
+    padding: 2vw;
   }
 
   .address p {
-    font-size: .92vw;
+    font-size: 3.79vw;
   }
 
   .playlist {
-    font-size: 1vw;
-    margin-left: 1.2vw;
-    margin-bottom: 0;
-    font-weight: 400;
+    font-size: 4.03vw;
+    margin-left: 4.88vw;
+    margin-bottom: 0vw;
   }
 
   .name-of-playlist{
-    font-size: 1.3vw;
-    margin-left: 1.2vw;
-    margin-top: 0;
-    font-weight: 400;
+    font-size: 5.22vw;
+    margin-left: 4.88vw;
+    margin-top: 0vw;
   }
 
   .attachments {
-    font-size: 1vw;
-    font-weight: 500;
-    margin-left: 1.2vw;
-    margin-top: 0;
+    font-size: 3.25vw;
+    margin-left: 4.88vw;
+    margin-top: 0vw;
     margin-bottom: 0;
   }
 
   .attachment-quantity {
-    font-size: 2.5vw;
-    color: rgb(36,139,199);
-    margin-top: 0;
-    margin-left: 1.2vw;
+    font-size: 10.1vw;
+    margin-top: 0vw;
+    margin-left: 4.88vw;
     margin-bottom: 0;
   }
 }

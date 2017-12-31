@@ -14,7 +14,9 @@ html {
 }
 
 main {
-  background-color: rgb(237, 236, 237);
+  background-image: url(../img/Avs-background.jpg);
+  background-size: 101% 101%;
+  background-position: -1vw;
   margin: 0;
   padding: .5vw;
 }
@@ -119,7 +121,7 @@ h2 {
   margin-left: .5vw;
   font-size: 40px;
   font-weight: 500;
-  color: rgb(68,68,68);
+  color: white;
   position: absolute;
   bottom: 22%;
 }
@@ -944,7 +946,7 @@ article span {
 
   main {
     padding: 1vw;
-    height: 135vw;
+    height: 600vw;
     overflow-y: scroll;
   }
 
